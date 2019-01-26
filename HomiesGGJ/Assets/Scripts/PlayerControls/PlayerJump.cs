@@ -40,11 +40,13 @@ public class PlayerJump : MonoBehaviour
         {
             Debug.Log("Not on ground");
             isGrounded = false;
+            JumpCount = JumpCount - 1;
         }
         else
         {
             Debug.Log("On ground");
             isGrounded = true;
+            JumpCount = MaxJumps;
         }
 
 
@@ -67,17 +69,6 @@ public class PlayerJump : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
     }
-
-    //increment num of jumps to maxjumps if player touches ground
-    void OnCollisionStay2D(Collision2D Col)
-    {
-        if (isGrounded)
-        {
-            JumpCount = MaxJumps;
-        }
-
-    }
-
 }
 
 
