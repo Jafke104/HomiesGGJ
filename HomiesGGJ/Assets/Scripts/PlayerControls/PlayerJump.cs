@@ -21,6 +21,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Start()
     {
+        jumpVelocity = 7;
         JumpCount = MaxJumps;
     }
 
