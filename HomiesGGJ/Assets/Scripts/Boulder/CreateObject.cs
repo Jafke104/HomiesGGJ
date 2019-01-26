@@ -12,6 +12,7 @@ public class CreateObject : MonoBehaviour
     {
         if (this.enabled)
         {
+            Debug.Log("Instantiating Boulder");
             Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
             this.enabled = false;
         }
