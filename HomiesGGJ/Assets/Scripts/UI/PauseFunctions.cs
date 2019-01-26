@@ -26,14 +26,14 @@ public class PauseFunctions : MonoBehaviour
     }
 
     public void PauseGame() {
-        Debug.Log("Game is paused");
+        // Debug.Log("Game is paused");
         GamePaused = true;
         Time.timeScale = 0;
         PauseMenu.SetActive(true);
     }
 
     public void UnpauseGame() {
-        Debug.Log("Game is unpaused");
+        // Debug.Log("Game is unpaused");
         GamePaused = false;
         Time.timeScale = 1;
         PauseMenu.SetActive(false);
