@@ -1,4 +1,4 @@
-﻿//Code by Kristopher Kath
+﻿//By Kristopher Kath
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +11,15 @@ public class PlayerJump : MonoBehaviour
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
 
+    int JumpCount = 0;
+    public int MaxJumps = 1;
+
     Rigidbody2D rb;
+
+    private void Start()
+    {
+        JumpCount = MaxJumps;
+    }
 
     void Awake(){
         rb = GetComponent<Rigidbody2D>();
@@ -21,7 +29,11 @@ public class PlayerJump : MonoBehaviour
 
         if(Input.GetButtonDown ("Jump"))
         {
-            GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity; 
+            if (JumpCount > 0)
+            {
+                GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
+                JumpCount -= 1;
+            }
         }
 
 
@@ -34,4 +46,17 @@ public class PlayerJump : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
     }
+
+    void OnCollisionEnter2D(Collision2D Col)
+    {
+        if (Col.gameObject.tag == "ground")
+        {
+            JumpCount = MaxJumps;
+        }
+    }
 }
+
+
+
+
+

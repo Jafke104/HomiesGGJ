@@ -1,4 +1,4 @@
-﻿//Code by Kristopher Kath
+﻿//By Kristopher Kath
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
