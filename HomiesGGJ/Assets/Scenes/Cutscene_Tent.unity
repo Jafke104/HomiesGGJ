@@ -639,6 +639,7 @@ GameObject:
   - component: {fileID: 1036778548}
   - component: {fileID: 1036778547}
   - component: {fileID: 1036778546}
+  - component: {fileID: 1036778549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -710,6 +711,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1036778549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036778545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4bc7026ee30e9041992403565dfd052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Carly: {fileID: 1631288546}
+  Pierre: {fileID: 1550620140}
+  Yuuki: {fileID: 0}
+  Dante: {fileID: 0}
 --- !u!1 &1414917564 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2761203496843464016, guid: e37e46cc2aff35443b8527c040e14453,
@@ -816,7 +833,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: fa1acd64a0b3bf84b9a358e9774b0a6d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -895,7 +912,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: aee2fa555d7003d4bae9767c3a1a073e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
