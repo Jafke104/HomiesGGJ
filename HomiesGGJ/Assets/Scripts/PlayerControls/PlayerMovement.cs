@@ -8,7 +8,14 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     public float Speed = 10f;
- 
+    
+    private GameMaster gm;
+
+    private void Start()
+    {
+        gm = GameObject.FindGameObjectWithTag("gamemaster").GetComponent<GameMaster>();
+    }
+
     void FixedUpdate()
     {
         
@@ -18,5 +25,14 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(Dirx));
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("pickup"))
+        {
+            Destroy(collision.gameObject);
+            gm.points += 1;
+        }
     }
 }

@@ -7,6 +7,9 @@ TagManager:
   - Enemy
   - ground
   - boulder
+  - GameMaster
+  - pickup
+  - gamemaster
   layers:
   - Default
   - TransparentFX
