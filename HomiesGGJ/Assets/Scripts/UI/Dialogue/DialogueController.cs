@@ -7,7 +7,8 @@ using TMPro;
 public class DialogueController : MonoBehaviour {
 
     private int cutscenePosition;
-
+    [SerializeField]
+    private GameObject GameManager;
     [SerializeField]
     private GameObject DialogueBox;
     private Queue<Sentence> currentDialogue;
@@ -82,6 +83,7 @@ public class DialogueController : MonoBehaviour {
     public void AnswerQuestion(int answer) {      
         if (answer == 0) {
             currentDialogue = sceneDialogue.response1;
+            GameManager.GetComponent<GameManager>().addChoices(answer);
         } else {
             currentDialogue = sceneDialogue.response2;
         }
