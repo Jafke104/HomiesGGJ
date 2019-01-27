@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class AutomaticWalk : MonoBehaviour
 {
-    //public Animator animator;
+    public Animator animator;
     public float delay = .2f;
     public float Speed = 10f;
 
@@ -24,7 +24,7 @@ public class AutomaticWalk : MonoBehaviour
 
         transform.position = new Vector2(transform.position.x + Dirx, transform.position.y);
 
-        //animator.SetFloat("Speed", Mathf.Abs(Dirx));
+        animator.SetFloat("Speed", Mathf.Abs(Dirx));
 
     }
 
