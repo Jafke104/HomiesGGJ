@@ -82,6 +82,7 @@ public class DialogueController : MonoBehaviour {
     public void AnswerQuestion(int answer) {      
         if (answer == 0) {
             currentDialogue = sceneDialogue.response1;
+            PlayerPrefs.SetInt()
         } else {
             currentDialogue = sceneDialogue.response2;
         }
