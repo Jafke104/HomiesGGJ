@@ -821,12 +821,12 @@ PrefabInstance:
     - target: {fileID: 4795981513501370273, guid: ca4082e672530af4a91bff75ced76b38,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 4795981513501370273, guid: ca4082e672530af4a91bff75ced76b38,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15
+      value: -16
       objectReference: {fileID: 0}
     - target: {fileID: 4795981513501370273, guid: ca4082e672530af4a91bff75ced76b38,
         type: 3}
@@ -3207,7 +3207,7 @@ PrefabInstance:
     - target: {fileID: 8917154384383721453, guid: 43b3f1574455f6c4aa0d78a278298d32,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.3203125
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8917154384383721453, guid: 43b3f1574455f6c4aa0d78a278298d32,
         type: 3}
@@ -3266,8 +3266,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7959158633688251375, guid: 43b3f1574455f6c4aa0d78a278298d32,
         type: 3}
+<<<<<<< HEAD
       propertyPath: m_UsedByEffector
       value: 1
+=======
+      propertyPath: m_Enabled
+      value: 0
+>>>>>>> 6e6e29e4dc872ce67fa486560e17ffeafa4bbc04
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43b3f1574455f6c4aa0d78a278298d32, type: 3}
@@ -4474,7 +4479,7 @@ PrefabInstance:
     - target: {fileID: 8759638910480453483, guid: 3c6481adef08d3544b105944bf11f727,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.5
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 8759638910480453483, guid: 3c6481adef08d3544b105944bf11f727,
         type: 3}
@@ -4969,7 +4974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533315605}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36, y: -9, z: -0.3203125}
+  m_LocalPosition: {x: -36, y: -9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5000,7 +5005,7 @@ PrefabInstance:
     - target: {fileID: 8917154384383721453, guid: 43b3f1574455f6c4aa0d78a278298d32,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.3203125
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8917154384383721453, guid: 43b3f1574455f6c4aa0d78a278298d32,
         type: 3}
