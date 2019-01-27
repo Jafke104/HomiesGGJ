@@ -1,9 +1,10 @@
-﻿using System.Collections;
+﻿//By Kristopher Kath
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DeathZone : MonoBehaviour
+public class DeathZoneAndResetScene : MonoBehaviour
 {
     public void RestartScene()
     {

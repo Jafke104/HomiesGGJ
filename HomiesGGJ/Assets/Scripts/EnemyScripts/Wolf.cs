@@ -5,7 +5,10 @@ using UnityEngine;
 public class Wolf : MonoBehaviour
 {
 
-    [SerializeField] protected float speed = 1.625f;
+    [SerializeField] protected float speed = 1f;
+
+    private IWolfStates currentState;
+
     public GameObject target { get; set; }
 
     public Collider2D m_collider;
@@ -14,11 +17,21 @@ public class Wolf : MonoBehaviour
     void Start()
     {
         m_collider = this.GetComponent<Collider2D>();
-
+        changeState(new DefaultState());
     }
 
     // Update is called once per frame
     void Update()
+    {
+        currentState.Execute();
+    }
+
+    public void setSpeed(float speed)
+    {
+        this.speed = speed;
+    }
+
+    public void move()
     {
         Vector3 rightCorner = new Vector3(this.transform.position.x + .5f, m_collider.bounds.min.y);
         Vector3 leftCorner = new Vector3(this.transform.position.x - .5f, m_collider.bounds.min.y);
@@ -29,7 +42,7 @@ public class Wolf : MonoBehaviour
         Debug.DrawRay(rightCorner, Vector2.down * .6f, Color.green, .6f);
         Debug.DrawRay(leftCorner, Vector2.down * .6f, Color.green, .6f);
 
-        
+
 
         if (!rightGroundInfo)
         {
@@ -45,7 +58,6 @@ public class Wolf : MonoBehaviour
         if (facingRight)
         {
             moveRight();
-            
         }
         else
         {
@@ -53,20 +65,32 @@ public class Wolf : MonoBehaviour
         }
     }
 
-    void flip()
+    public void flip()
     {
         Vector3 newScale = this.transform.localScale;
         newScale.x *= -1;
         this.transform.localScale = newScale;
     }
 
-    void moveRight()
+    public void moveRight()
     {
         this.transform.Translate(Vector3.right * speed * Time.deltaTime);
     }
 
-    void moveLeft()
+    public void moveLeft()
     {
         this.transform.Translate(Vector3.left * speed * Time.deltaTime);
+    }
+
+    public void changeState(IWolfStates newState)
+    {
+        if (currentState != null)
+        {
+            currentState.Exit();
+        }
+
+        currentState = newState;
+
+        currentState.Enter(this);
     }
 }
