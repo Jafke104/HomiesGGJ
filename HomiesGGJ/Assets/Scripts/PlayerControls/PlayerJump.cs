@@ -25,7 +25,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Start()
     {
-        jumpVelocity = 7;
+        jumpVelocity = 10;
         JumpCount = MaxJumps;
     }
 
@@ -33,32 +33,34 @@ public class PlayerJump : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate(){
+    void Update(){
 
         //using raycast to check if player is on ground or not
-        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .6f);
-        Debug.DrawRay(this.transform.position, Vector2.down * .6f, Color.green, .6f);
+        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .8f);
+        Debug.DrawRay(this.transform.position, Vector2.down * .6f, Color.green, .8f);
         if (!groundInfo)
         {
             Debug.Log("Not on ground");
             isGrounded = false;
-            //JumpCount = JumpCount - 1;
-            animator.SetBool("IsJumping", true);
+            JumpCount = JumpCount - 1;
+            //animator.SetBool("IsJumping", true);
         }
         else
         {
             Debug.Log("On ground");
             isGrounded = true;
             JumpCount = MaxJumps;
-            animator.SetBool("IsJumping", false);
-            animator.SetBool("IsFalling", false);
+            //animator.SetBool("IsJumping", false);
+            //animator.SetBool("IsFalling", false);
         }
 
 
         if (Input.GetButtonDown ("Jump"))
         {
+           // Debug.Log("HERE!1");
             if (JumpCount > 0)
             {
+            //    Debug.Log("HERE!");
                 GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
                 JumpCount -= 1;
             }
@@ -68,12 +70,12 @@ public class PlayerJump : MonoBehaviour
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-            animator.SetBool("IsFalling", true);
+            //animator.SetBool("IsFalling", true);
         }
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-            animator.SetBool("IsFalling", false);
+            //animator.SetBool("IsFalling", false);
         }
     }
 }
