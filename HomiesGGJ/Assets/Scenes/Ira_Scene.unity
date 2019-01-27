@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueController: {fileID: 1567240430}
-  filename: Stage1.1.txt
+  filename: Stage1.2.txt
 --- !u!61 &896865989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1204,7 +1204,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990384952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -59.5, y: -3.1, z: -0.01875}
+  m_LocalPosition: {x: 121.4, y: -3.1, z: -0.01875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1724,8 +1724,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81cca505d345ea4aab781e74e9b80b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: 1
   filename: 
-  GlobalFuncts: {fileID: 0}
+  GlobalFuncts: {fileID: 1380339044}
   DialogueBox: {fileID: 1109716150}
   delay: 0
   continueButton: {fileID: 1109716149}
