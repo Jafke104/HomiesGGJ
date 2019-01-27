@@ -8,9 +8,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 7324924432015427668}
   - component: {fileID: 3986288751362139739}
   - component: {fileID: 1924424507573065806}
+=======
+  - component: {fileID: 9219955570465449727}
+  - component: {fileID: 7155212174408478935}
+  - component: {fileID: 4337987201006908222}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Layer: 0
   m_Name: Spring Ground Large Hill
   m_TagString: ground
@@ -80,13 +86,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!61 &1924424507573065806
+=======
+--- !u!61 &4337987201006908222
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 59103259764076457}
+=======
+  m_GameObject: {fileID: 9485811351035568}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -97,16 +111,27 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 1, y: 1}
+=======
+    oldSize: {x: 10.4, y: 10.4}
+    newSize: {x: 5, y: 5}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 1
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &82045705754782857
+=======
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
+--- !u!1 &134560411023731465
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -430,8 +455,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 6950524833767570222}
   - component: {fileID: 1169112842502810838}
+=======
+  - component: {fileID: 871589352841934636}
+  - component: {fileID: 4557414616203270974}
+  - component: {fileID: 526179292893638302}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Layer: 0
   m_Name: Rock Longer (2)
   m_TagString: ground
@@ -501,7 +532,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &627243483283760122
+=======
+--- !u!61 &526179292893638302
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979118389211472019}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.4, y: 10.4}
+    newSize: {x: 5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 1
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
+--- !u!1 &1057941117198538370
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2339,9 +2400,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 3954198438660547388}
   - component: {fileID: 506979724937366655}
   - component: {fileID: 1942308473791544037}
+=======
+  - component: {fileID: 5650222147850661776}
+  - component: {fileID: 4474850550847006033}
+  - component: {fileID: 5339972639695743671}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Layer: 0
   m_Name: Tree Branch Small
   m_TagString: ground
@@ -2411,13 +2478,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!61 &1942308473791544037
+=======
+--- !u!61 &5339972639695743671
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2713188828661669742}
+=======
+  m_GameObject: {fileID: 3250892593392288229}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -2428,7 +2503,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 5.12, y: 5.12}
+=======
+    oldSize: {x: 10.4, y: 10.4}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
     newSize: {x: 5, y: 5}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
@@ -2437,7 +2516,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &2963395342373188584
+=======
+--- !u!1 &3490190972293390010
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3549,8 +3632,13 @@ GameObject:
   - component: {fileID: 7920962789783792762}
   - component: {fileID: 3970118363400888410}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: Bush (6)
   m_TagString: Untagged
+=======
+  m_Name: Cave Wall
+  m_TagString: ground
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3810,22 +3898,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 8507613042310768569}
   - component: {fileID: 2497792693986533009}
   - component: {fileID: 6460977051609886918}
   m_Layer: 0
   m_Name: DeathZone
   m_TagString: Untagged
+=======
+  - component: {fileID: 6952602162406617449}
+  - component: {fileID: 2500235269831387230}
+  - component: {fileID: 7966090619856541580}
+  m_Layer: 0
+  m_Name: Rock Longer (1)
+  m_TagString: ground
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &8507613042310768569
+=======
+--- !u!4 &6952602162406617449
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6056759662024502681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 31.348219, y: -5.9926796, z: 1.4403033}
@@ -3836,10 +3938,23 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2497792693986533009
 MonoBehaviour:
+=======
+  m_GameObject: {fileID: 5493423661334180059}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 85.34822, y: 12.00732, z: 1.2449908}
+  m_LocalScale: {x: 5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7942790296698488904}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2500235269831387230
+SpriteRenderer:
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6056759662024502681}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3847,21 +3962,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &6460977051609886918
+=======
+  m_GameObject: {fileID: 5493423661334180059}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 0548c19b8aac24fa8b003a647ff088a6, type: 3}
+  m_Color: {r: 1, g: 0.557907, b: 0.24056602, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 2
+  m_Size: {x: 5, y: 5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 1
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &7966090619856541580
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 6056759662024502681}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
+=======
+  m_GameObject: {fileID: 5493423661334180059}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
     pivot: {x: 0, y: 0}
     oldSize: {x: 0, y: 0}
     newSize: {x: 0, y: 0}
@@ -3873,6 +4042,19 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &6096050977967565871
+=======
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.4, y: 10.4}
+    newSize: {x: 5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 1
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
+--- !u!1 &5535833601360324857
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4694,9 +4876,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 557583994487076769}
   - component: {fileID: 2080452595672809787}
   - component: {fileID: 1242907492611696958}
+=======
+  - component: {fileID: 2547535305015907097}
+  - component: {fileID: 5352550956027103967}
+  - component: {fileID: 6516345234751264540}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Layer: 0
   m_Name: Spring Ground Large Bump (1)
   m_TagString: ground
@@ -4766,8 +4954,70 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!61 &1242907492611696958
 BoxCollider2D:
+=======
+--- !u!61 &6516345234751264540
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691035197878237579}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.4, y: 10.4}
+    newSize: {x: 5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 1
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
+--- !u!1 &6723652948958352758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4427398254470239666}
+  - component: {fileID: 7546916402006798399}
+  m_Layer: 0
+  m_Name: Bush (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4427398254470239666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6723652948958352758}
+  m_LocalRotation: {x: -0, y: -0, z: 0.2164396, w: 0.97629607}
+  m_LocalPosition: {x: 8.978218, y: -2.632679, z: 0.22936583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7942790296698488904}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25}
+--- !u!212 &7546916402006798399
+SpriteRenderer:
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5508,9 +5758,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 6774040097670481571}
   - component: {fileID: 4499684761130257300}
   - component: {fileID: 7163284259331835908}
+=======
+  - component: {fileID: 2900184528078968930}
+  - component: {fileID: 2363177526376033022}
+  - component: {fileID: 4420974756582636336}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Layer: 0
   m_Name: Spring Ground Large (1)
   m_TagString: ground
@@ -5580,13 +5836,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!61 &7163284259331835908
+=======
+--- !u!61 &4420974756582636336
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 8353009928844579818}
+=======
+  m_GameObject: {fileID: 7441229592283873391}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -5597,16 +5861,27 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 1, y: 1}
+=======
+    oldSize: {x: 10.4, y: 10.4}
+    newSize: {x: 5, y: 5}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 1
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &8509036526920548147
+=======
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
+--- !u!1 &7530497974384936774
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5720,9 +5995,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 8393103445919968907}
   - component: {fileID: 6381703696702064978}
   - component: {fileID: 7619458469194064977}
+=======
+  - component: {fileID: 5962691618892432039}
+  - component: {fileID: 722857831319280139}
+  - component: {fileID: 3553031624534086899}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Layer: 0
   m_Name: Rock Small (2)
   m_TagString: ground
@@ -5792,13 +6073,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!61 &7619458469194064977
+=======
+--- !u!61 &3553031624534086899
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 8514031522929488338}
+=======
+  m_GameObject: {fileID: 7916716661073206593}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -5818,7 +6107,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &8531321730016460600
+=======
+--- !u!1 &8041978629195431544
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6144,9 +6437,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1977403632881420844}
   - component: {fileID: 2113281128034657923}
   - component: {fileID: 5897614229117214553}
+=======
+  - component: {fileID: 3467791092443018651}
+  - component: {fileID: 7564422102304084074}
+  - component: {fileID: 5817624991275416928}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Layer: 0
   m_Name: Spring Ground Large (5)
   m_TagString: ground
@@ -6216,14 +6515,165 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!61 &5897614229117214553
 BoxCollider2D:
+=======
+<<<<<<< HEAD
+--- !u!1 &8562124220709063171
+GameObject:
+=======
+--- !u!61 &5817624991275416928
+BoxCollider2D:
+>>>>>>> e5aab3a81b67910381af8fc811d868417e0f6429
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1942811274220325327}
+  - component: {fileID: 5867065334162307793}
+  - component: {fileID: 1147380960854204214}
+  m_Layer: 0
+  m_Name: AudioObject(Trees)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1942811274220325327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8562124220709063171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7942790296698488904}
+  m_RootOrder: 70
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &5867065334162307793
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8562124220709063171}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b070bce5a88a34bd294df9edc3d76a7f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1147380960854204214
+MonoBehaviour:
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8646413911028771655}
   m_Enabled: 1
+<<<<<<< HEAD
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a736b9fbdf9e4f8d71fbbfc21b610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicClip: {fileID: 8300000, guid: 3d088312e1f834220bf6da4f69bedb28, type: 3}
+  MusicSource: {fileID: 5867065334162307793}
+=======
+  m_GameObject: {fileID: 8498333551323053777}
+  m_Enabled: 1
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -6233,16 +6683,28 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 1, y: 1}
+=======
+    oldSize: {x: 10.4, y: 10.4}
+    newSize: {x: 5, y: 5}
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 1
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &8894795881767351325
+=======
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0
+>>>>>>> e5aab3a81b67910381af8fc811d868417e0f6429
+--- !u!1 &8572422784096336147
+>>>>>>> 321aa1eac5a2e1824e0a80e0f084cfeff554dcd7
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
