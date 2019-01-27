@@ -4,11 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GlobalFunctions : MonoBehaviour {
+    public GameObject AudioManager;
+
     public void ChangeScene(string SceneName) {
-        SceneManager.LoadScene(SceneName);
+        AudioManager.GetComponent<AudioManager>().SaveVolumeSettings();
+        SceneManager.LoadScene(SceneName);     
     }
 
     public void QuitGame() {
+        AudioManager.GetComponent<AudioManager>().SaveVolumeSettings();
         Application.Quit();
     }
 }
