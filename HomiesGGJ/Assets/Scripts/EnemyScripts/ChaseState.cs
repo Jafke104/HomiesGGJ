@@ -20,7 +20,7 @@ public class ChaseState : IWolfStates
     public void Enter(Wolf wolf)
     {
         this.wolf = wolf;
-        wolf.setSpeed(2.5f);
+        wolf.setSpeed(10f);
     }
 
     public void Exit()

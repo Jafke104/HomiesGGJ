@@ -35,28 +35,38 @@ public class Wolf : MonoBehaviour
 
     public void move()
     {
-        Vector3 rightCorner = new Vector3(this.transform.position.x + .5f, m_collider.bounds.min.y);
-        Vector3 leftCorner = new Vector3(this.transform.position.x - .5f, m_collider.bounds.min.y);
+        //Vector3 rightCorner = new Vector3(this.transform.position.x + .5f, m_collider.bounds.min.y);
+        //Vector3 leftCorner = new Vector3(this.transform.position.x - .5f, m_collider.bounds.min.y);
 
-        RaycastHit2D rightGroundInfo = Physics2D.Raycast(rightCorner, Vector2.down, .6f);
-        RaycastHit2D leftGroundInfo = Physics2D.Raycast(leftCorner, Vector2.down, .6f);
+        //RaycastHit2D rightGroundInfo = Physics2D.Raycast(rightCorner, Vector2.down, 1.1f);
+        //RaycastHit2D leftGroundInfo = Physics2D.Raycast(leftCorner, Vector2.down, 1.1f);
+        
+        //RaycastHit2D wallCheck;
+        //if (facingRight)
+        //{
+        //    wallCheck = Physics2D.Raycast(this.transform.position, Vector2.right, 3.5f);
+        //}
+        //else
+        //{
+        //    wallCheck = Physics2D.Raycast(this.transform.position, Vector2.left, 3.5f);
+        //}
 
-        Debug.DrawRay(rightCorner, Vector2.down * .6f, Color.green, .6f);
-        Debug.DrawRay(leftCorner, Vector2.down * .6f, Color.green, .6f);
 
+        //Debug.DrawRay(rightCorner, Vector2.down * 1.1f, Color.green, 1.1f);
+        //Debug.DrawRay(leftCorner, Vector2.down * 1.1f, Color.green, 1.1f);
+        //Debug.DrawRay(this.transform.position, Vector2.right * 3.5f, Color.green, 3.5f);
 
+        //if(wallCheck)
+        //{
+        //    if(!wallCheck.collider.CompareTag("Player"))
+        //    {
+        //        Debug.Log("Hit a wall");
+        //        facingRight = false;
+        //        flip();
+        //    }
+        //}
 
-        if (!rightGroundInfo)
-        {
-            facingRight = false;
-            flip();
-        }
-        if (!leftGroundInfo)
-        {
-            facingRight = true;
-            flip();
-        }
-
+        
         if (facingRight)
         {
             moveRight();
@@ -70,7 +80,7 @@ public class Wolf : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         if (facingRight)
-        {
+       {
             facingRight = false;
             flip();
         }
