@@ -98,12 +98,12 @@ public class DialogueController : MonoBehaviour {
 
     public void AnswerQuestion(int answer) {      
         if (answer == 0) {
-<<<<<<< HEAD
+//<<<<<<< HEAD
             currentDialogue = sceneDialogue.response1;
             //PlayerPrefs.SetInt();
-=======
+//=======
             currentDialogue = sceneDialogue.response1;          
->>>>>>> 3bb91944111feef3669e387db4b154621985a7b0
+//>>>>>>> 3bb91944111feef3669e387db4b154621985a7b0
         } else {
             currentDialogue = sceneDialogue.response2;
         }
