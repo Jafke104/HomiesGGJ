@@ -5,6 +5,7 @@ using UnityEngine;
 using TMPro;
 
 public class DialogueController : MonoBehaviour {
+    public int scene;
     [SerializeField]
     private string filename;
 
@@ -122,6 +123,11 @@ public class DialogueController : MonoBehaviour {
             currentDialogue = sceneDialogue.response2;
         }
         GameManager.current.addChoices(answer);
+
+        if (scene == 1) {
+            GlobalFuncts.GetComponent<GlobalFunctions>().ChangeScene("Cutscene_Tent");
+        }
+
         DisplayNextSentences("");
     }
 
