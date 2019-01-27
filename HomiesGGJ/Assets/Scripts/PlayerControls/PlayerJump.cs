@@ -33,7 +33,7 @@ public class PlayerJump : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate(){
+    void Update(){
 
         //using raycast to check if player is on ground or not
         RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .6f);
@@ -57,8 +57,10 @@ public class PlayerJump : MonoBehaviour
 
         if (Input.GetButtonDown ("Jump"))
         {
+           // Debug.Log("HERE!1");
             if (JumpCount > 0)
             {
+            //    Debug.Log("HERE!");
                 GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpVelocity;
                 JumpCount -= 1;
             }
