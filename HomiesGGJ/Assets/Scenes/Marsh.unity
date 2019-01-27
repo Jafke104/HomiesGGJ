@@ -215,8 +215,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712803336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.47, y: -1.162, z: 0}
-  m_LocalScale: {x: 0.745638, y: 0.68808, z: 1}
+  m_LocalPosition: {x: 3.3, y: -1.52, z: 0}
+  m_LocalScale: {x: 2.8282049, y: 1.6665298, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -233,6 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2f88534351631147ba082ec7e098b11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   Speed: 10
 --- !u!114 &712803341
 MonoBehaviour:
@@ -249,6 +250,10 @@ MonoBehaviour:
   jumpVelocity: 0
   fallMultiplier: 2.5
   lowJumpMultiplier: 2
+  animator: {fileID: 0}
+  PhysicsLength: 0
+  isGrounded: 0
+  JumpCount: 0
   MaxJumps: 1
 --- !u!50 &712803342
 Rigidbody2D:
@@ -453,8 +458,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031155127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.701, y: -2.0790632, z: 0}
-  m_LocalScale: {x: 5.041, y: 1, z: 1}
+  m_LocalPosition: {x: 2.541, y: -2.924, z: 0}
+  m_LocalScale: {x: 18.384726, y: 0.911203, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -474,12 +479,12 @@ PrefabInstance:
     - target: {fileID: 4014106735301096689, guid: c976302b36425b94e9ab732ccd147527,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.66
+      value: -4.84
       objectReference: {fileID: 0}
     - target: {fileID: 4014106735301096689, guid: c976302b36425b94e9ab732ccd147527,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1
+      value: -1.77
       objectReference: {fileID: 0}
     - target: {fileID: 4014106735301096689, guid: c976302b36425b94e9ab732ccd147527,
         type: 3}
