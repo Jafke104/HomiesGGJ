@@ -33,7 +33,7 @@ public class PlayerJump : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update(){
+    void FixedUpdate(){
 
         //using raycast to check if player is on ground or not
         RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .6f);
@@ -42,7 +42,7 @@ public class PlayerJump : MonoBehaviour
         {
             Debug.Log("Not on ground");
             isGrounded = false;
-            JumpCount = JumpCount - 1;
+            //JumpCount = JumpCount - 1;
             animator.SetBool("IsJumping", true);
         }
         else
