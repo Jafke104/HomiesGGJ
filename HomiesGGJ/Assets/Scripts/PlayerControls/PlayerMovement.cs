@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Right = true || Left = false
     private bool direction;
+    public float Dirx;
 
     // private GameMaster gm;
 
@@ -23,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
 
-        float Dirx = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
+        Dirx = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
 
         transform.position = new Vector2(transform.position.x + Dirx, transform.position.y);
 
