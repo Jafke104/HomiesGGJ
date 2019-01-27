@@ -67,6 +67,20 @@ public class Wolf : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (facingRight)
+        {
+            facingRight = false;
+            flip();
+        }
+        else
+        {
+            facingRight = true;
+            flip();
+        }
+    }
+
     public void flip()
     {
         Vector3 newScale = this.transform.localScale;
