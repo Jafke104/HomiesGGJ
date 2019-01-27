@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ira_Scene.unity
     guid: e982da123c30841c79493fdf1a363859
+<<<<<<< HEAD
+=======
+  - enabled: 1
+    path: Assets/Scenes/WinterScene.unity
+    guid: ad5758f1fbb6281498addef3e027f989
+  - enabled: 1
+    path: Assets/Scenes/Fall Season.unity
+    guid: afa20e05efebda047838dedeb5af1103
+>>>>>>> d022c2195a1110764863a2067cfb2ad02b8cbae6
   m_configObjects: {}
