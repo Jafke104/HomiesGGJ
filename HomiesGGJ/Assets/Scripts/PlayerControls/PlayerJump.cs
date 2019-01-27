@@ -12,8 +12,10 @@ public class PlayerJump : MonoBehaviour
     public float lowJumpMultiplier = 2f;
 
     RaycastHit2D groundInfo;
+    [SerializeField]
     bool isGrounded;
 
+    [SerializeField]
     int JumpCount = 0;
     public int MaxJumps = 1;
 
@@ -32,17 +34,19 @@ public class PlayerJump : MonoBehaviour
     void Update(){
 
         //using raycast to check if player is on ground or not
-        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .6f);
-        Debug.DrawRay(this.transform.position, Vector2.down * .6f, Color.green, .6f);
+        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .2f);
+        Debug.DrawRay(this.transform.position, Vector2.down * .6f, Color.green, .2f);
         if (!groundInfo)
         {
             Debug.Log("Not on ground");
             isGrounded = false;
+            JumpCount = JumpCount - 1;
         }
         else
         {
             Debug.Log("On ground");
             isGrounded = true;
+            JumpCount = MaxJumps;
         }
 
 
@@ -63,15 +67,6 @@ public class PlayerJump : MonoBehaviour
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-        }
-    }
-
-    //increment num of jumps to maxjumps if player touches ground
-    void OnCollisionEnter2D(Collision2D Col)
-    {
-        if (isGrounded)
-        {
-            JumpCount = MaxJumps;
         }
     }
 }

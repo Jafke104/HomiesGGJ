@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DeathZone : MonoBehaviour
+public class DeathZoneAndResetScene : MonoBehaviour
 {
     public void RestartScene()
     {
