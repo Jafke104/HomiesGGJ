@@ -4856,7 +4856,7 @@ MonoBehaviour:
   answer2Button: {fileID: 1681035376}
   cutsceneText: {fileID: 720643489}
   nameText: {fileID: 1329124035}
-  fileName: testfile.txt
+  fileName: Stage1.1.txt
 --- !u!1 &2139254607
 GameObject:
   m_ObjectHideFlags: 0
