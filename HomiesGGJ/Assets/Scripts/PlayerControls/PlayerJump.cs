@@ -25,7 +25,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Start()
     {
-        jumpVelocity = 7;
+        jumpVelocity = 10;
         JumpCount = MaxJumps;
     }
 
@@ -36,8 +36,8 @@ public class PlayerJump : MonoBehaviour
     void Update(){
 
         //using raycast to check if player is on ground or not
-        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .6f);
-        Debug.DrawRay(this.transform.position, Vector2.down * .6f, Color.green, .6f);
+        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .8f);
+        Debug.DrawRay(this.transform.position, Vector2.down * .6f, Color.green, .8f);
         if (!groundInfo)
         {
             Debug.Log("Not on ground");
