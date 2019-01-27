@@ -12,7 +12,7 @@ public class AudioScriptMusic : MonoBehaviour
     void Start()
     {
         MusicSource.clip = MusicClip;
-        MusicSource.volume = 1.5f;
+        MusicSource.volume = .15f;
         MusicSource.Play();
     }
 }
