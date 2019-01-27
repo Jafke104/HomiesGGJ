@@ -55,3 +55,6 @@ TagManager:
   - name: PlayerRig
     uniqueID: 1284723383
     locked: 0
+  - name: Bushes
+    uniqueID: 2059804439
+    locked: 0
