@@ -1,0 +1,7 @@
+Scout:Nice looking tree isn't it, I could make a very fancy house out of this.
+Dante:Yes… Nice looking Willow Oak, otherwise known  as Quercus Phellos. I was thinking of using some of the wood in a recent carpenter project. Perhaps… I could join and work with you, if that's okay.
+@Q
+Quite possibly, but I'll have to think about it.
+Hmmm, well you do know what you're doing.
+@1Dante:Well let me know if you do decide to take me along!
+@2Dante:I’ve worked on multiple projects before this. Please, I think I could be a big help!
