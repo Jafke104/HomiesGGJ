@@ -19,16 +19,25 @@ public class AutomaticWalk : MonoBehaviour
 
     void FixedUpdate()
     {
- 
-        float Dirx = Speed * Time.deltaTime;
+        
+            float Dirx = Speed * Time.deltaTime;
 
-        transform.position = new Vector2(transform.position.x + Dirx, transform.position.y);
+            transform.position = new Vector2(transform.position.x + Dirx, transform.position.y);
 
-        animator.SetFloat("Speed", Mathf.Abs(Dirx));
+            animator.SetFloat("Speed", Mathf.Abs(Dirx));
+        
 
     }
 
     IEnumerator initDelay() {
         yield return new WaitForSeconds(delay);
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("stopwalk"))
+        {
+            gameObject.GetComponent<AutomaticWalk>().enabled = false;
+            animator.SetFloat("Speed", 0.0f);
+        }
     }
 }

@@ -12,6 +12,7 @@ TagManager:
   - GameMaster
   - pickup
   - gamemaster
+  - stopwalk
   layers:
   - Default
   - TransparentFX
