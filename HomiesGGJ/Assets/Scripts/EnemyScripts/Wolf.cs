@@ -11,6 +11,8 @@ public class Wolf : MonoBehaviour
 
     public GameObject target { get; set; }
 
+    public Animator animator;
+
     public Collider2D m_collider;
     public bool facingRight = true;
     // Start is called before the first frame update

@@ -8,6 +8,7 @@ public class ChaseState : IWolfStates
     public void Execute()
     {
         Debug.Log("Chase state");
+        wolf.animator.SetFloat("Speed", 3f);
         wolf.move();
         if( wolf.target == null )
         {
@@ -24,6 +25,7 @@ public class ChaseState : IWolfStates
 
     public void Exit()
     {
+        wolf.animator.SetFloat("Speed", 1f);
         wolf.setSpeed(1f);
     }
 
