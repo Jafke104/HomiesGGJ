@@ -11,6 +11,8 @@ public class PlayerJump : MonoBehaviour
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
 
+    public Animator animator;
+
     RaycastHit2D groundInfo;
     [SerializeField]
     bool isGrounded;
@@ -41,12 +43,15 @@ public class PlayerJump : MonoBehaviour
             Debug.Log("Not on ground");
             isGrounded = false;
             JumpCount = JumpCount - 1;
+            animator.SetBool("IsJumping", true);
         }
         else
         {
             Debug.Log("On ground");
             isGrounded = true;
             JumpCount = MaxJumps;
+            animator.SetBool("IsJumping", false);
+            animator.SetBool("IsFalling", false);
         }
 
 
@@ -63,10 +68,12 @@ public class PlayerJump : MonoBehaviour
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            animator.SetBool("IsFalling", true);
         }
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+            animator.SetBool("IsFalling", false);
         }
     }
 }
