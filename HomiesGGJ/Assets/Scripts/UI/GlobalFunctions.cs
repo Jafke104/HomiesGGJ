@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class GlobalFunctions : MonoBehaviour {
     public GameObject AudioManager;
 
+    public void NewGame() {
+        GameManager.current = new GameManager();
+    }
+
     public void ChangeScene(string SceneName) {
         AudioManager.GetComponent<AudioManager>().SaveVolumeSettings();
         SceneManager.LoadScene(SceneName);     

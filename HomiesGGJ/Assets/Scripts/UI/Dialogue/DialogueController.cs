@@ -12,8 +12,6 @@ public class DialogueController : MonoBehaviour {
     [SerializeField]
     private GameObject GlobalFuncts;
     [SerializeField]
-    private GameObject GameManager;
-    [SerializeField]
     private GameObject DialogueBox;
     [SerializeField]
     private float delay;
@@ -79,7 +77,7 @@ public class DialogueController : MonoBehaviour {
 
                 if (filename == "Stage3.5.txt" || filename == "Stage.3.6.txt")
                 {
-                    if (GameManager.GetComponent<GameManager>().choices[0] == 0)
+                    if (GameManager.current.choices[0] == 0)
                     {
                         if (sentence.m_sentence.IndexOf("Carly/Pierre") != -1)
                         {
@@ -123,7 +121,7 @@ public class DialogueController : MonoBehaviour {
         } else {
             currentDialogue = sceneDialogue.response2;
         }
-        GameManager.GetComponent<GameManager>().addChoices(answer);
+        GameManager.current.addChoices(answer);
         DisplayNextSentences("");
     }
 
