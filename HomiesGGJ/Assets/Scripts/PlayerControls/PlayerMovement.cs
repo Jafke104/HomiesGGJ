@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position = new Vector2(transform.position.x + Dirx, transform.position.y);
 
-        //animator.SetFloat("Speed", Mathf.Abs(Dirx));
+        animator.SetFloat("Speed", Mathf.Abs(Dirx));
 
     }
 

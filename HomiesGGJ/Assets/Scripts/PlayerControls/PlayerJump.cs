@@ -13,6 +13,9 @@ public class PlayerJump : MonoBehaviour
 
     public Animator animator;
 
+    [SerializeField]
+    private float PhysicsLength;
+
     RaycastHit2D groundInfo;
     [SerializeField]
     bool isGrounded;
@@ -36,21 +39,21 @@ public class PlayerJump : MonoBehaviour
     void Update(){
 
         //using raycast to check if player is on ground or not
-        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, .8f);
+        RaycastHit2D groundInfo = Physics2D.Raycast(this.transform.position, Vector2.down, PhysicsLength);
         Debug.DrawRay(this.transform.position, Vector2.down * .6f, Color.green, .8f);
         if (!groundInfo)
         {
             Debug.Log("Not on ground");
             isGrounded = false;
             JumpCount = JumpCount - 1;
-            //animator.SetBool("IsJumping", true);
+            animator.SetBool("IsJumping", true);
         }
         else
         {
             Debug.Log("On ground");
             isGrounded = true;
             JumpCount = MaxJumps;
-            //animator.SetBool("IsJumping", false);
+            animator.SetBool("IsJumping", false);
             //animator.SetBool("IsFalling", false);
         }
 
