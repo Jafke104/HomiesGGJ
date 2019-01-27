@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:HomiesGGJ/Assets/Resources/Art/Sprites/Spring_Grass_1.jpg.meta
 guid: f13a0111dbf794b369ddf4e86a0e140b
+=======
+guid: 8c01e081f1c649344a698c876e63a32b
+>>>>>>> f2dfe951edfbf29fa54bc7be8f3bfdb3c14f4ef1:HomiesGGJ/Assets/Resources/Art/Sprites/Spring_Grass_1.jpg.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -75,7 +79,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD:HomiesGGJ/Assets/Resources/Art/Sprites/Spring_Grass_1.jpg.meta
     spriteID: 9167777255fca421498c5cd2eab9098a
+=======
+    spriteID: 82da24673fc1dc943a733c9ece56ae47
+>>>>>>> f2dfe951edfbf29fa54bc7be8f3bfdb3c14f4ef1:HomiesGGJ/Assets/Resources/Art/Sprites/Spring_Grass_1.jpg.meta
     vertices: []
     indices: 
     edges: []

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:HomiesGGJ/Assets/Resources/Art/Sprites/Cave_Wall_1.jpg.meta
 guid: 583fd8892f185425fa4963d2136d7374
+=======
+guid: 89fd009df47a17e41aed9acb0a7dfbbb
+>>>>>>> f2dfe951edfbf29fa54bc7be8f3bfdb3c14f4ef1:HomiesGGJ/Assets/Resources/Art/Sprites/Cave_Wall_1.jpg.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -75,7 +79,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD:HomiesGGJ/Assets/Resources/Art/Sprites/Cave_Wall_1.jpg.meta
     spriteID: 75c85c03e7d22414db88ef56c600060a
+=======
+    spriteID: 9c64ea73f86ad6c48bd0fab487149394
+>>>>>>> f2dfe951edfbf29fa54bc7be8f3bfdb3c14f4ef1:HomiesGGJ/Assets/Resources/Art/Sprites/Cave_Wall_1.jpg.meta
     vertices: []
     indices: 
     edges: []
