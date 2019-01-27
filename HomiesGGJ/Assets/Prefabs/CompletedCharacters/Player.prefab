@@ -1488,7 +1488,7 @@ MonoBehaviour:
   fallMultiplier: 2.5
   lowJumpMultiplier: 2
   animator: {fileID: 770152987}
-  PhysicsLength: 1.73
+  PhysicsLength: 3.5
   isGrounded: 0
   JumpCount: 0
   MaxJumps: 1
