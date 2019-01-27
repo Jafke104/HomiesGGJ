@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public Animator animator;
+    //public Animator animator;
 
     public float Speed = 10f;
     
@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        gm = GameObject.FindGameObjectWithTag("gamemaster").GetComponent<GameMaster>();
+        //gm = GameObject.FindGameObjectWithTag("gamemaster").GetComponent<GameMaster>();
     }
 
     void FixedUpdate()
