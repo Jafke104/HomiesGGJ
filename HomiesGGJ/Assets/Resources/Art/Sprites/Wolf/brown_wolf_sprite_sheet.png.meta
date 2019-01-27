@@ -39,6 +39,11 @@ TextureImporter:
     21300068: brown_wolf_sprite_sheet_34
     21300070: brown_wolf_sprite_sheet_35
     21300072: brown_wolf_sprite_sheet_36
+    21300074: brown_wolf_sprite_sheet_37
+    21300076: brown_wolf_sprite_sheet_38
+    21300078: brown_wolf_sprite_sheet_39
+    21300080: brown_wolf_sprite_sheet_40
+    21300082: brown_wolf_sprite_sheet_41
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -146,18 +151,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_0
       rect:
         serializedVersion: 2
-        x: 341
+        x: 339
         y: 1480
         width: 297
         height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1ca2abcf9367a64c8e80552708ec0e9
+      spriteID: e55ce7f0139563a44b7d75de7558d40f
       vertices: []
       indices: 
       edges: []
@@ -170,14 +175,14 @@ TextureImporter:
         y: 1478
         width: 293
         height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3849e576c371f1d47ac9566d3bbc4fb6
+      spriteID: 03cc5153cffe70444829d422727052ac
       vertices: []
       indices: 
       edges: []
@@ -190,14 +195,14 @@ TextureImporter:
         y: 1480
         width: 269
         height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 005778a5deadbe949bfefefc42f6f930
+      spriteID: e9f6d14b345a45b4badc96d9bb08e58c
       vertices: []
       indices: 
       edges: []
@@ -208,16 +213,16 @@ TextureImporter:
         serializedVersion: 2
         x: 1318
         y: 1480
-        width: 276
+        width: 275
         height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef666635cc75d64e901913ad82a7957
+      spriteID: 7bb815fa5b6b9ac46a64b1241fc126b7
       vertices: []
       indices: 
       edges: []
@@ -226,18 +231,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_4
       rect:
         serializedVersion: 2
-        x: 338
+        x: 341
         y: 1159
-        width: 298
+        width: 295
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e0b06ee8fa461429fa36535dcc7ef1
+      spriteID: 007b36a8752a17149b39c2bcf1a7074c
       vertices: []
       indices: 
       edges: []
@@ -248,16 +253,16 @@ TextureImporter:
         serializedVersion: 2
         x: 673
         y: 1159
-        width: 283
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 279
+        height: 199
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa3a9d15dfa1f448870d84156100176
+      spriteID: a972e62afcac50042a037776e8aff060
       vertices: []
       indices: 
       edges: []
@@ -268,16 +273,16 @@ TextureImporter:
         serializedVersion: 2
         x: 990
         y: 1159
-        width: 275
+        width: 272
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1022cf055a19a448831836faaa5d504
+      spriteID: c9fc278ea8fa7fd4e91c76e775cb9d52
       vertices: []
       indices: 
       edges: []
@@ -288,16 +293,16 @@ TextureImporter:
         serializedVersion: 2
         x: 1316
         y: 1159
-        width: 278
+        width: 274
         height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3db57edb258c14408b6153aec9339a4
+      spriteID: 09d970e6a33bb9746af11ae76a3e61e4
       vertices: []
       indices: 
       edges: []
@@ -310,14 +315,14 @@ TextureImporter:
         y: 1159
         width: 296
         height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9933b71f7dd27f049b494ac1fc637c28
+      spriteID: 5d7e9dde235b10c4d8b859fecc567a9a
       vertices: []
       indices: 
       edges: []
@@ -327,17 +332,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 360
-        y: 834
-        width: 278
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 836
+        width: 276
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6176a55d31086a34fb9612a12c3a62f8
+      spriteID: ebb008f57e9226f4f99c79da288a7235
       vertices: []
       indices: 
       edges: []
@@ -346,18 +351,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_10
       rect:
         serializedVersion: 2
-        x: 684
-        y: 835
-        width: 271
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 686
+        y: 836
+        width: 269
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba00b1a032f5c9e49b6ec6c5dd0209bd
+      spriteID: c395f363a70468342bbeed2091f32389
       vertices: []
       indices: 
       edges: []
@@ -370,14 +375,14 @@ TextureImporter:
         y: 836
         width: 300
         height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1193d022fbd6ce47a915162886e6fd0
+      spriteID: 8c27ffd4aacd4d24d95eaa9c2994730a
       vertices: []
       indices: 
       edges: []
@@ -387,17 +392,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1297
-        y: 835
+        y: 838
         width: 300
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d9a02365d5b14b458021f665e182552
+      spriteID: f3e06b656ca28b946a6b9b246f9c3fb2
       vertices: []
       indices: 
       edges: []
@@ -406,18 +411,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_13
       rect:
         serializedVersion: 2
-        x: 1628
+        x: 1627
         y: 861
-        width: 288
+        width: 289
         height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52a66bf6e3ef00f4db9e064953fc5eb6
+      spriteID: 49199eeec84aea342b70326c89f8ff77
       vertices: []
       indices: 
       edges: []
@@ -426,18 +431,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_14
       rect:
         serializedVersion: 2
-        x: 1939
+        x: 1940
         y: 878
-        width: 293
+        width: 292
         height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 900583e1f6417fb4eb5b5d198572da5f
+      spriteID: d2e0c56f0610f424fbcc5caeccd7c769
       vertices: []
       indices: 
       edges: []
@@ -448,16 +453,16 @@ TextureImporter:
         serializedVersion: 2
         x: 2293
         y: 857
-        width: 248
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 247
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc48a7691c454a542b50b0679e9ed3c2
+      spriteID: 01e7ac350d096204dad13865860c3a7d
       vertices: []
       indices: 
       edges: []
@@ -466,18 +471,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_16
       rect:
         serializedVersion: 2
-        x: 2588
-        y: 852
-        width: 263
-        height: 235
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2589
+        y: 857
+        width: 262
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aad5913db8f2a9488707a9ee30f5006
+      spriteID: 5a70732ef0c47d4468da9701ba0b4998
       vertices: []
       indices: 
       edges: []
@@ -490,14 +495,14 @@ TextureImporter:
         y: 838
         width: 279
         height: 208
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ce81a8e404418043b8dad791cfb97a3
+      spriteID: 806888fbd14bf1947837e9893add8f6e
       vertices: []
       indices: 
       edges: []
@@ -507,17 +512,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3222
-        y: 835
+        y: 838
         width: 297
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0118558a47435b7458957bc83b91a0b5
+      spriteID: cffb45e4e1139a143b40a96511a72208
       vertices: []
       indices: 
       edges: []
@@ -527,17 +532,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3543
-        y: 834
-        width: 301
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 838
+        width: 297
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163ed30e4d72a7d4089989a9276bba33
+      spriteID: a499aea7936864a48a3f8bc3b08cd358
       vertices: []
       indices: 
       edges: []
@@ -550,14 +555,14 @@ TextureImporter:
         y: 843
         width: 282
         height: 152
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59788e0204467cd4c84aca209858b219
+      spriteID: 69f94f1e641ad9b42a39b1049eacfc90
       vertices: []
       indices: 
       edges: []
@@ -570,14 +575,14 @@ TextureImporter:
         y: 843
         width: 278
         height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b54377e20e54edf4faf61f1d12421b4a
+      spriteID: c149e2fea11703146b5838f4133b626d
       vertices: []
       indices: 
       edges: []
@@ -587,17 +592,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 341
-        y: 515
-        width: 296
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 519
+        width: 295
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9027166485b907540a245f47f622d047
+      spriteID: 6a544acc5641e0d478773ce42d9bfafe
       vertices: []
       indices: 
       edges: []
@@ -610,14 +615,14 @@ TextureImporter:
         y: 521
         width: 283
         height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36c8176c352f7ee40b22cf4af5eb6ac1
+      spriteID: df5f5be521b61c94b935adbfbc536f0f
       vertices: []
       indices: 
       edges: []
@@ -626,18 +631,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_24
       rect:
         serializedVersion: 2
-        x: 984
-        y: 553
-        width: 292
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 986
+        y: 557
+        width: 290
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73824db2ae3e0794e8fb6614bc3cd9a3
+      spriteID: fa0b2b6aa1e633849be6373ca1214789
       vertices: []
       indices: 
       edges: []
@@ -648,16 +653,16 @@ TextureImporter:
         serializedVersion: 2
         x: 1300
         y: 575
-        width: 304
+        width: 302
         height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6399aef020936014d89804ae3369704d
+      spriteID: f2ba1da1be22af548925adac6115d78e
       vertices: []
       indices: 
       edges: []
@@ -670,14 +675,14 @@ TextureImporter:
         y: 571
         width: 297
         height: 199
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b577de75a8a7be4e85cd0b3f0815f80
+      spriteID: c9d0c5d36d91f464a9a1e2e68b88eb88
       vertices: []
       indices: 
       edges: []
@@ -690,14 +695,14 @@ TextureImporter:
         y: 519
         width: 281
         height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 410cf92b99266b549bf1658915cca002
+      spriteID: a3c671eb417ca1d41823c7f48cc6e4b0
       vertices: []
       indices: 
       edges: []
@@ -706,18 +711,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_28
       rect:
         serializedVersion: 2
-        x: 2278
+        x: 2279
         y: 521
-        width: 274
-        height: 219
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 273
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6605ff10a207e1e4c94c5733bd4f5aa0
+      spriteID: e01a15f91af86824aa33bda67093686a
       vertices: []
       indices: 
       edges: []
@@ -726,18 +731,18 @@ TextureImporter:
       name: brown_wolf_sprite_sheet_29
       rect:
         serializedVersion: 2
-        x: 2587
+        x: 2591
         y: 519
-        width: 292
+        width: 288
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7158fe4b5d5c67d4fad7e6f7095635e5
+      spriteID: a9120b8e8f899cd40976ec7c16f76345
       vertices: []
       indices: 
       edges: []
@@ -749,15 +754,15 @@ TextureImporter:
         x: 2905
         y: 519
         width: 291
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163a9294ad8ba3e4b99344f64493877e
+      spriteID: dae272ab23e3d2745b06dcbf5bfa467e
       vertices: []
       indices: 
       edges: []
@@ -770,14 +775,14 @@ TextureImporter:
         y: 522
         width: 295
         height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82e7ac95eb673754ab16691c6ae6d566
+      spriteID: 034dc5b4f7e03fc4098c0ea6d98af983
       vertices: []
       indices: 
       edges: []
@@ -790,14 +795,14 @@ TextureImporter:
         y: 196
         width: 279
         height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2164fd614068d1448809a579b8034ae5
+      spriteID: c0dc229c799a1c243b45e70af4554e32
       vertices: []
       indices: 
       edges: []
@@ -810,14 +815,14 @@ TextureImporter:
         y: 268
         width: 96
         height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84094fba0d035414191b64e9f1545dd4
+      spriteID: 1f64d4bcafd562d499020feedf534b6c
       vertices: []
       indices: 
       edges: []
@@ -827,17 +832,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 725
-        y: 196
-        width: 232
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 198
+        width: 230
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f1df252227aee2459d195b11518978b
+      spriteID: c6656829e03086f4892e9890ae838a8b
       vertices: []
       indices: 
       edges: []
@@ -850,14 +855,14 @@ TextureImporter:
         y: 196
         width: 295
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d05f6a3b0581a694a930943b82f84c7c
+      spriteID: 23902b47540a3184aad590a5b326fd43
       vertices: []
       indices: 
       edges: []
@@ -868,8 +873,68 @@ TextureImporter:
         serializedVersion: 2
         x: 1311
         y: 196
-        width: 284
-        height: 86
+        width: 282
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f8fe41fbf768c4b8eecfcf2c2123c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown_wolf_sprite_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1774
+        width: 351
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5441d78ce002c5e47af135caf61adb94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown_wolf_sprite_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1044
+        width: 81
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd4749c770192447836b9e13722d904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown_wolf_sprite_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 193
+        width: 307
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,7 +942,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9b5ff4900472914e8f989147a5a55c4
+      spriteID: f3cced9532d25444da9fc788d1c38e0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown_wolf_sprite_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 175
+        width: 292
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552b1d475f334ca42ba283a1f0dd8dc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown_wolf_sprite_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 197
+        width: 323
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d62c020ae53774c8aa5f3188727353
       vertices: []
       indices: 
       edges: []
