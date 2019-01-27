@@ -29,16 +29,12 @@ public class DialogueController : MonoBehaviour {
     [SerializeField]
     private TMPro.TextMeshProUGUI nameText;
 
-    [SerializeField]
-    private string fileName;
-
     private void Start() {
         sceneDialogue = new Dialogue();
         cutscenePosition = 0;
-        StartDialogue();
     }
 
-    public void StartDialogue () {
+    public void StartDialogue (string fileName) {
         DialogueBox.SetActive(true);
 
         sceneDialogue.ConstructDialogue(fileName);
