@@ -9,6 +9,9 @@ TagManager:
   - SFX
   - ground
   - boulder
+  - GameMaster
+  - pickup
+  - gamemaster
   layers:
   - Default
   - TransparentFX
