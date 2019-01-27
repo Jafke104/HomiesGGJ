@@ -7,7 +7,7 @@ public class GameManager {
     public static GameManager current;
     public List<int> choices;
 
-    public void newGame() {
+    public GameManager() {
         choices = new List<int>();
     }
 

@@ -7,7 +7,7 @@ public class GlobalFunctions : MonoBehaviour {
     public GameObject AudioManager;
 
     public void NewGame() {
-        GameManager.current.newGame();
+        GameManager.current = new GameManager();
     }
 
     public void ChangeScene(string SceneName) {
