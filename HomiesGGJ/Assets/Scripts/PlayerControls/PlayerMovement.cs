@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Right = true || Left = false
     private bool direction;
-    
+
     // private GameMaster gm;
 
     private void Start()
@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+
         float Dirx = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
 
         transform.position = new Vector2(transform.position.x + Dirx, transform.position.y);
@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(Dirx));
 
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
