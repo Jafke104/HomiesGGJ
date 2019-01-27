@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 75b9cd38d89dfa642b4e6c1a5801dd81
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: silver_wolf_sprite_sheet_0
+    21300002: silver_wolf_sprite_sheet_1
+    21300004: silver_wolf_sprite_sheet_2
+    21300006: silver_wolf_sprite_sheet_3
+    21300008: silver_wolf_sprite_sheet_4
+    21300010: silver_wolf_sprite_sheet_5
+    21300012: silver_wolf_sprite_sheet_6
+    21300014: silver_wolf_sprite_sheet_7
+    21300016: silver_wolf_sprite_sheet_8
+    21300018: silver_wolf_sprite_sheet_9
+    21300020: silver_wolf_sprite_sheet_10
+    21300022: silver_wolf_sprite_sheet_11
+    21300024: silver_wolf_sprite_sheet_12
+    21300026: silver_wolf_sprite_sheet_13
+    21300028: silver_wolf_sprite_sheet_14
+    21300030: silver_wolf_sprite_sheet_15
+    21300032: silver_wolf_sprite_sheet_16
+    21300034: silver_wolf_sprite_sheet_17
+    21300036: silver_wolf_sprite_sheet_18
+    21300038: silver_wolf_sprite_sheet_19
+    21300040: silver_wolf_sprite_sheet_20
+    21300042: silver_wolf_sprite_sheet_21
+    21300044: silver_wolf_sprite_sheet_22
+    21300046: silver_wolf_sprite_sheet_23
+    21300048: silver_wolf_sprite_sheet_24
+    21300050: silver_wolf_sprite_sheet_25
+    21300052: silver_wolf_sprite_sheet_26
+    21300054: silver_wolf_sprite_sheet_27
+    21300056: silver_wolf_sprite_sheet_28
+    21300058: silver_wolf_sprite_sheet_29
+    21300060: silver_wolf_sprite_sheet_30
+    21300062: silver_wolf_sprite_sheet_31
+    21300064: silver_wolf_sprite_sheet_32
+    21300066: silver_wolf_sprite_sheet_33
+    21300068: silver_wolf_sprite_sheet_34
+    21300070: silver_wolf_sprite_sheet_35
+    21300072: silver_wolf_sprite_sheet_36
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1480
+        width: 295
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3a4c09f2322ba42afb3ae8942a75cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1480
+        width: 294
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e2f0af7f59bb744ae3ffe9635079b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1480
+        width: 269
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf6f0d9274841740a099dc8e820ed14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1480
+        width: 275
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab81020d6065b094095a51f7a496ef0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1159
+        width: 294
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902dd6bfbae27fc4fbd4372229fa39d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1159
+        width: 280
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8317d2dee0b94f8f175d14e80f60b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1159
+        width: 275
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1248e9a4160772448bccc617a7c8bcec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1159
+        width: 274
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc77d0325384c7b47ac36e348bf6511b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1159
+        width: 295
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67375a491198c4046be37ee2f8a1ec2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 835
+        width: 276
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741cc8b382543a44eb4e22f88ba2f69a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 835
+        width: 269
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b62e1bb112f71d4c886a435957545ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 834
+        width: 297
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8fd95858aadcb4aa5c0ab3c4937429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 835
+        width: 295
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f2fc42ff0fd64bb9188e39aa8f06e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 861
+        width: 290
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e891443ee242b24785035531ea04c01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 878
+        width: 291
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3512628b4e886ab4b9ce0bdd60b90a01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 857
+        width: 253
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b160723de3517a418936cfb33a38e36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 857
+        width: 264
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1324e2d78527b584b88ea3bd77393971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 835
+        width: 279
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79fda5dedc3de64783cca7f57e14bc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 838
+        width: 297
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d36d4270a4e254391004baa10bdc5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 835
+        width: 301
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e5b43a3f3bbc54a87ce483a0235892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 840
+        width: 285
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1df8e723c082314db872a0209713cdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 840
+        width: 276
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d748db00ec35c914cbd480f11e8e3be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 521
+        width: 294
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81657301cb6ee2745b7736c111f93cdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 521
+        width: 283
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e155682349f1b4780ebb0e77402388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 557
+        width: 292
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ec5b2a280356849aa7bc7ed741bb89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 571
+        width: 306
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4864415e644a5e4986572f584690532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 571
+        width: 297
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f8d4bbfa8721f44b473a6318b45c8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 521
+        width: 284
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c345fe6f916713d4a8d27f4623d640cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 521
+        width: 274
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f66768f2effe6d4897fe48bb9ab45d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 521
+        width: 291
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6706328ff9c134ebe0e656c2f546f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 521
+        width: 292
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82138ebcc98c9814c8156f2505b23646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 522
+        width: 297
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81257d360aa6644f93110c65db60384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 196
+        width: 282
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7882faad45ce54947b3d95817183d578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 268
+        width: 94
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93a8b9cb2f6e2144a6c92fe9277ffab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 196
+        width: 225
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a55faf3f2bcc65429026244dceb8a68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 198
+        width: 299
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6799dd7a6d22e44a9a14cfa6c8ad88f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_wolf_sprite_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 193
+        width: 285
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13046ae937aef6249a6b1fb42f2c31c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cb44f87d062e17b4caddf0aab84b1995
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
