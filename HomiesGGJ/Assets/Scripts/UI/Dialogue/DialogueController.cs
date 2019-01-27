@@ -48,10 +48,12 @@ public class DialogueController : MonoBehaviour {
     }
 
     public void DisplayNextSentences() {
-        if (cutscenePosition == 1 && (sceneDialogue.response1.Count == 0 || sceneDialogue.response2.Count == 0)) {
+        if ((cutscenePosition == 0 && sceneDialogue.question == null && sceneDialogue.initialDialogue.Count == 0) ||
+            (cutscenePosition == 1 && (sceneDialogue.response1 == null ||sceneDialogue.response1.Count == 0 
+            || sceneDialogue.response2.Count == 0))) {
             EndDialogue();
         } else {
-            if (cutscenePosition == 0 && sceneDialogue.initialDialogue.Count == 0) {
+            if (cutscenePosition == 0 && sceneDialogue.initialDialogue.Count == 0 && sceneDialogue.question != null) {
                 cutscenePosition++;
                 continueButton.SetActive(false);
                 answer1Button.SetActive(true);
