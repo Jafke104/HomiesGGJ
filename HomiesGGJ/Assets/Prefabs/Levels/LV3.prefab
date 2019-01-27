@@ -153,25 +153,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.255
---- !u!251 &3958178864332491027
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5155300726564707223}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 90
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!1 &3958178864500138377
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +311,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &3958178864332491027
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5155300726564707223}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 90
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &8272365904709151741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,7 +1590,7 @@ PrefabInstance:
     - target: {fileID: 407455599830337402, guid: f21d2d600b62a7f449dafc5e5f4addd2,
         type: 3}
       propertyPath: m_Name
-      value: Rock Longer (2)
+      value: Cave Wall
       objectReference: {fileID: 0}
     - target: {fileID: 1499805134499997189, guid: f21d2d600b62a7f449dafc5e5f4addd2,
         type: 3}
@@ -1683,7 +1683,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 23f471c034c1f4844b480dff52200d8b,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6298925032887365276, guid: f21d2d600b62a7f449dafc5e5f4addd2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f21d2d600b62a7f449dafc5e5f4addd2, type: 3}
 --- !u!4 &2467451866533205168 stripped
 Transform:
