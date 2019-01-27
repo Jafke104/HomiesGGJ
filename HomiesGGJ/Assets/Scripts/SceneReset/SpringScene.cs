@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SpringScene : MonoBehaviour
 {
-   void OnTriggerEnter(Collider other)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if( other.gameObject.CompareTag("Player"))
-        {
-            SceneManager.LoadScene("Cutscene_Tent");
-        }
+
+        Debug.Log("Changing Scene");
+        SceneManager.LoadScene("Cutscene_Tent");
+
     }
 }
