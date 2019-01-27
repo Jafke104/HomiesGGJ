@@ -33,8 +33,14 @@ public class Dialogue {
         while (!reader.EndOfStream) {
             text = reader.ReadLine();
             if (text.IndexOf("@Q") != -1) {
-                speaker = text.Substring(2, text.IndexOf(':') - 2);
-                sentence = text.Substring(text.IndexOf(':') + 1);
+                if (text.Length > 2) {
+                    speaker = text.Substring(2, text.IndexOf(':') - 2);
+                    sentence = text.Substring(text.IndexOf(':') + 1);
+                } else {
+                    speaker = "";
+                    sentence = "";
+                }
+                
                 answer1 = reader.ReadLine();
                 answer2 = reader.ReadLine();
                 question = new Question(speaker, sentence, answer1, answer2);
