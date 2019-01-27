@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: 229bc6d1b84e04eae9a9a240597e61d5
-=======
-guid: 4c4a1212f9686ef479ae5413272a382b
->>>>>>> 07d7c7158e85199e4353ce347b4409032d0f4ff3
-=======
-guid: f44da5b966850004f80d8acc81e8578b
->>>>>>> f975e8e53c1278d5de773e03d3854e3bfc57ee3d
+guid: d6757320eda845e4b8cababe1c2fc366
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -83,9 +75,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-    spriteID: 406bd01ec04934fafb11a71dd893fac5
+    spriteID: c33d243767bd37e458a4bf870cb4f844
     vertices: []
     indices: 
     edges: []
@@ -96,25 +86,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-    spriteID: fe1d2429bb782e8479e8f022b1051b7d
-=======
-    spriteID: d574c5bc66059b045a757e95c509ddb3
->>>>>>> f975e8e53c1278d5de773e03d3854e3bfc57ee3d
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
-<<<<<<< HEAD
-  userData:
-  assetBundleName:
-  assetBundleVariant:
->>>>>>> 07d7c7158e85199e4353ce347b4409032d0f4ff3
-=======
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
->>>>>>> f975e8e53c1278d5de773e03d3854e3bfc57ee3d
