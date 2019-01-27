@@ -5,13 +5,18 @@ using UnityEngine;
 using TMPro;
 
 public class DialogueController : MonoBehaviour {
+    [SerializeField]
+    private string filename;
 
     private int cutscenePosition;
+    [SerializeField]
+    private GameObject GlobalFuncts;
     [SerializeField]
     private GameObject GameManager;
     [SerializeField]
     private GameObject DialogueBox;
-    private float delay = 0.2f;
+    [SerializeField]
+    private float delay;
     private Queue<Sentence> currentDialogue;
     private Sentence sentence;
 
@@ -31,27 +36,29 @@ public class DialogueController : MonoBehaviour {
     [SerializeField]
     private TMPro.TextMeshProUGUI nameText;
 
-    private void Start() {
+    private void Awake() {
         sceneDialogue = new Dialogue();
         cutscenePosition = 0;
-        StartDialogue("Stage3.6.txt");
+        
     }
 
     public void StartDialogue (string fileName) {
+        print(fileName);
+        filename = fileName;
         DialogueBox.SetActive(true);
 
         sceneDialogue.ConstructDialogue(fileName);
         currentDialogue = sceneDialogue.initialDialogue;
 
-        DisplayNextSentences();
+        DisplayNextSentences("");
         
     }
 
-    public void DisplayNextSentences() {
+    public void DisplayNextSentences(string nextScene) {
         if ((cutscenePosition == 0 && sceneDialogue.question == null && sceneDialogue.initialDialogue.Count == 0) ||
             (cutscenePosition == 1 && (sceneDialogue.response1 == null ||sceneDialogue.response1.Count == 0 
             || sceneDialogue.response2.Count == 0))) {
-            EndDialogue();
+            EndDialogue(nextScene);
         } else {
             if (cutscenePosition == 0 && sceneDialogue.initialDialogue.Count == 0 && sceneDialogue.question != null) {
                 cutscenePosition++;
@@ -69,19 +76,33 @@ public class DialogueController : MonoBehaviour {
                 continueButton.SetActive(true);
                 StopAllCoroutines();
                 sentence = currentDialogue.Dequeue();
-                if (GameManager.GetComponent<GameManager>().choices[0] == 0) {
-                    if (sentence.m_sentence.IndexOf("Carly/Pierre") != -1) {
-                        sentence.m_sentence = sentence.m_sentence.Replace("Carly/Pierre", "Carly");
-                    } else if (sentence.m_sentence.IndexOf("Wife/Husband") != -1) {
-                        sentence.m_sentence = sentence.m_sentence.Replace("Wife/Husband", "Wife");
+
+                if (filename == "Stage3.5.txt" || filename == "Stage.3.6.txt")
+                {
+                    if (GameManager.GetComponent<GameManager>().choices[0] == 0)
+                    {
+                        if (sentence.m_sentence.IndexOf("Carly/Pierre") != -1)
+                        {
+                            sentence.m_sentence = sentence.m_sentence.Replace("Carly/Pierre", "Carly");
+                        }
+                        else if (sentence.m_sentence.IndexOf("Wife/Husband") != -1)
+                        {
+                            sentence.m_sentence = sentence.m_sentence.Replace("Wife/Husband", "Wife");
+                        }
                     }
-                } else {
-                    if (sentence.m_sentence.IndexOf("Carly/Pierre") != -1) {
-                        sentence.m_sentence = sentence.m_sentence.Replace("Carly/Pierre", "Pierre");
-                    } else if (sentence.m_sentence.IndexOf("Wife/Husband") != -1) {
-                        sentence.m_sentence = sentence.m_sentence.Replace("Wife/Husband", "Husband");
+                    else
+                    {
+                        if (sentence.m_sentence.IndexOf("Carly/Pierre") != -1)
+                        {
+                            sentence.m_sentence = sentence.m_sentence.Replace("Carly/Pierre", "Pierre");
+                        }
+                        else if (sentence.m_sentence.IndexOf("Wife/Husband") != -1)
+                        {
+                            sentence.m_sentence = sentence.m_sentence.Replace("Wife/Husband", "Husband");
+                        }
                     }
                 }
+                
                 nameText.text = sentence.m_name;
                 StartCoroutine(TypeSentence(sentence.m_sentence));
             }   
@@ -92,26 +113,24 @@ public class DialogueController : MonoBehaviour {
         cutsceneText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
             cutsceneText.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(delay);
         }
     }
 
     public void AnswerQuestion(int answer) {      
         if (answer == 0) {
-//<<<<<<< HEAD
             currentDialogue = sceneDialogue.response1;
-            //PlayerPrefs.SetInt();
-//=======
-            currentDialogue = sceneDialogue.response1;          
-//>>>>>>> 3bb91944111feef3669e387db4b154621985a7b0
         } else {
             currentDialogue = sceneDialogue.response2;
         }
         GameManager.GetComponent<GameManager>().addChoices(answer);
-        DisplayNextSentences();
+        DisplayNextSentences("");
     }
 
-    public void EndDialogue() {
+    public void EndDialogue(string nextScene) {
+        if (nextScene != "") {
+            GlobalFuncts.GetComponent<GlobalFunctions>().ChangeScene(nextScene);
+        }
         DialogueBox.SetActive(false);
     }
 }
