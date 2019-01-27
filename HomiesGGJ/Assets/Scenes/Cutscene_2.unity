@@ -244,6 +244,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1970656496, guid: ff290559540d345baa91061d77a07e64, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1970656497, guid: ff290559540d345baa91061d77a07e64, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff290559540d345baa91061d77a07e64, type: 3}
 --- !u!1 &200719045 stripped
@@ -264,7 +272,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd730c85e3986412e8e57640cd0724f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 200719049}
+  delay: 0.2
   Speed: 2.5
+--- !u!95 &200719049 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1970656494, guid: ff290559540d345baa91061d77a07e64,
+    type: 3}
+  m_PrefabInstance: {fileID: 200719044}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &384899983
 GameObject:
   m_ObjectHideFlags: 0
