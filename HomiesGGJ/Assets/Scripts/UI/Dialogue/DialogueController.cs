@@ -11,6 +11,7 @@ public class DialogueController : MonoBehaviour {
     private GameObject GameManager;
     [SerializeField]
     private GameObject DialogueBox;
+    private float delay = 0.2f;
     private Queue<Sentence> currentDialogue;
     private Sentence sentence;
 
@@ -33,6 +34,7 @@ public class DialogueController : MonoBehaviour {
     private void Start() {
         sceneDialogue = new Dialogue();
         cutscenePosition = 0;
+        StartDialogue("Stage3.6.txt");
     }
 
     public void StartDialogue (string fileName) {
@@ -40,6 +42,7 @@ public class DialogueController : MonoBehaviour {
 
         sceneDialogue.ConstructDialogue(fileName);
         currentDialogue = sceneDialogue.initialDialogue;
+
         DisplayNextSentences();
         
     }
@@ -66,6 +69,19 @@ public class DialogueController : MonoBehaviour {
                 continueButton.SetActive(true);
                 StopAllCoroutines();
                 sentence = currentDialogue.Dequeue();
+                if (GameManager.GetComponent<GameManager>().choices[0] == 0) {
+                    if (sentence.m_sentence.IndexOf("Carly/Pierre") != -1) {
+                        sentence.m_sentence = sentence.m_sentence.Replace("Carly/Pierre", "Carly");
+                    } else if (sentence.m_sentence.IndexOf("Wife/Husband") != -1) {
+                        sentence.m_sentence = sentence.m_sentence.Replace("Wife/Husband", "Wife");
+                    }
+                } else {
+                    if (sentence.m_sentence.IndexOf("Carly/Pierre") != -1) {
+                        sentence.m_sentence = sentence.m_sentence.Replace("Carly/Pierre", "Pierre");
+                    } else if (sentence.m_sentence.IndexOf("Wife/Husband") != -1) {
+                        sentence.m_sentence = sentence.m_sentence.Replace("Wife/Husband", "Husband");
+                    }
+                }
                 nameText.text = sentence.m_name;
                 StartCoroutine(TypeSentence(sentence.m_sentence));
             }   
@@ -82,12 +98,11 @@ public class DialogueController : MonoBehaviour {
 
     public void AnswerQuestion(int answer) {      
         if (answer == 0) {
-            currentDialogue = sceneDialogue.response1;
-            GameManager.GetComponent<GameManager>().addChoices(answer);
+            currentDialogue = sceneDialogue.response1;          
         } else {
             currentDialogue = sceneDialogue.response2;
         }
-
+        GameManager.GetComponent<GameManager>().addChoices(answer);
         DisplayNextSentences();
     }
 
