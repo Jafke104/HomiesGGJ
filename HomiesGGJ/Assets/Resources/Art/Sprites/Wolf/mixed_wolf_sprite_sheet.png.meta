@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: fb0e3ad4cc206f94f98a2dc253219645
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mixed_wolf_sprite_sheet_0
+    21300002: mixed_wolf_sprite_sheet_1
+    21300004: mixed_wolf_sprite_sheet_2
+    21300006: mixed_wolf_sprite_sheet_3
+    21300008: mixed_wolf_sprite_sheet_4
+    21300010: mixed_wolf_sprite_sheet_5
+    21300012: mixed_wolf_sprite_sheet_6
+    21300014: mixed_wolf_sprite_sheet_7
+    21300016: mixed_wolf_sprite_sheet_8
+    21300018: mixed_wolf_sprite_sheet_9
+    21300020: mixed_wolf_sprite_sheet_10
+    21300022: mixed_wolf_sprite_sheet_11
+    21300024: mixed_wolf_sprite_sheet_12
+    21300026: mixed_wolf_sprite_sheet_13
+    21300028: mixed_wolf_sprite_sheet_14
+    21300030: mixed_wolf_sprite_sheet_15
+    21300032: mixed_wolf_sprite_sheet_16
+    21300034: mixed_wolf_sprite_sheet_17
+    21300036: mixed_wolf_sprite_sheet_18
+    21300038: mixed_wolf_sprite_sheet_19
+    21300040: mixed_wolf_sprite_sheet_20
+    21300042: mixed_wolf_sprite_sheet_21
+    21300044: mixed_wolf_sprite_sheet_22
+    21300046: mixed_wolf_sprite_sheet_23
+    21300048: mixed_wolf_sprite_sheet_24
+    21300050: mixed_wolf_sprite_sheet_25
+    21300052: mixed_wolf_sprite_sheet_26
+    21300054: mixed_wolf_sprite_sheet_27
+    21300056: mixed_wolf_sprite_sheet_28
+    21300058: mixed_wolf_sprite_sheet_29
+    21300060: mixed_wolf_sprite_sheet_30
+    21300062: mixed_wolf_sprite_sheet_31
+    21300064: mixed_wolf_sprite_sheet_32
+    21300066: mixed_wolf_sprite_sheet_33
+    21300068: mixed_wolf_sprite_sheet_34
+    21300070: mixed_wolf_sprite_sheet_35
+    21300072: mixed_wolf_sprite_sheet_36
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1478
+        width: 297
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719805570db2eba4ca53846d972de4fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1480
+        width: 293
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284abcf6e83f8df46b6e2ca409f47501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1478
+        width: 270
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5866e1689a789ff4ea727ce95adff365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1480
+        width: 276
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f16cdbc59e141a4cb515467a4a06677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1159
+        width: 293
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad5e9450a8d2de49bc801957bc21319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1159
+        width: 281
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7bf9c48ddbced468d52c8598a39f33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1157
+        width: 274
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76bc755bcc87ee4eadd87077697b0f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1157
+        width: 280
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd980784d1cabd4092aaa9daaebd813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1159
+        width: 303
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cb9678a2f428a49b8df047ddc6b3e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 834
+        width: 280
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b24df6d7dbedc44b261133f60be12d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 834
+        width: 273
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66998548daef61b45a658cf83cc26eb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 835
+        width: 296
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda58d898f9a57c40ae56a4437963cef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 838
+        width: 296
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fa08ce000c55e4c9a83d939d69b4bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 864
+        width: 294
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d0eeb4033fca54a96bdb7776ba357e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 878
+        width: 290
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4afea13f7e53b440b2c89db500caf96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 853
+        width: 248
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf31ac024244c9c4b9049c043ea76971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 859
+        width: 260
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a16732f75a2a01448106acacc225e04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 840
+        width: 277
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71afdcd5d4bbef246a406e58ac0af4aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 838
+        width: 301
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac456032a8bf9b945a3b630f0d860ffd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 838
+        width: 304
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce91bc1f010c88e438a7180dd055b012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 841
+        width: 283
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eefabc7bbc430941ab61d5ba3b4eb17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 841
+        width: 276
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04e2565f9899db42b001b103541d2d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 521
+        width: 296
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d58cc5b829853946938866b77d57291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 522
+        width: 283
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ce8d570232f9f4d8a6f07ca3fd7432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 559
+        width: 293
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaa2cfdb55254544be877ac17285f62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 578
+        width: 303
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc1683da3cfab941be49b6f2e8bf64c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 570
+        width: 303
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5561ea852f675d04393c9492684f4f22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 521
+        width: 286
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd99df439344bcc4685cfe0e1b742bf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 519
+        width: 275
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38cac42a9e242b41af0a03e4298951c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 519
+        width: 293
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c6c0404615fad4ca4ff74f814a02ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 522
+        width: 294
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af979c40ec70fca4da758a33bc261264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 523
+        width: 291
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9c0413fbb8d3848a0708b08ae51150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 196
+        width: 274
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9788b23fd80ceba419954f40bcadc1fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 271
+        width: 99
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c29b55814f194478776dc06996fd88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 198
+        width: 232
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9406f3e67ee05aa4c8f88d006c8cf33e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 196
+        width: 304
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552cf49d073a109499a72d4d52876a62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mixed_wolf_sprite_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 197
+        width: 298
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7441566e247fa41b649bc752f1e4eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 99b6f1ebe4b3ddc408205e8d970f6265
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
