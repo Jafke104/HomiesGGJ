@@ -322,7 +322,7 @@ PrefabInstance:
     - target: {fileID: 5163832108001794503, guid: 9eb7634a23980a44687b19a0f2b26a04,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Ira_Scene
+      value: Ira_Scene - Copy
       objectReference: {fileID: 0}
     - target: {fileID: 5163832108219138306, guid: 9eb7634a23980a44687b19a0f2b26a04,
         type: 3}
@@ -1577,9 +1577,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81cca505d345ea4aab781e74e9b80b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stage: 0
   filename: Stage0.5.txt
   GlobalFuncts: {fileID: 1619671674}
-  GameManager: {fileID: 1419945613}
   DialogueBox: {fileID: 209979717}
   delay: 0.1
   continueButton: {fileID: 209979716}
