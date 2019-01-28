@@ -16,6 +16,12 @@ public class Choice : MonoBehaviour
             Pierre.SetActive(false);
         else if (GameManager.current.choices[0] == 1)
             Carly.SetActive(false);
+
+        if (GameManager.current.choices[1] == 0)
+            Dante.SetActive(false);
+        else if (GameManager.current.choices[1] == 1)
+            Yuuki.SetActive(false);
+
         if (GameManager.current.choices[0] == 0 && GameManager.current.choices[1] == 0)
         {
             Pierre.SetActive(false);
