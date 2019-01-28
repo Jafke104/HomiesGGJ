@@ -7,7 +7,7 @@ public class CollideSceneChange : MonoBehaviour
 {
     public string sceneName;
 
-     void OnCollisionEnter2D(Collision2D col) {
+     void OnTriggerEnter2D(Collider2D col) {
     
         Debug.Log("Changing Scene");
         SceneManager.LoadScene(sceneName);

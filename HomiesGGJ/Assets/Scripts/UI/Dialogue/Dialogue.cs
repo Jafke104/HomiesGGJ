@@ -27,7 +27,8 @@ public class Dialogue {
         response1 = new Queue<Sentence>();
         response2 = new Queue<Sentence>();
 
-        sourceFile = new FileInfo("Assets/Resources/CutsceneText/" + filename);
+
+        sourceFile = new FileInfo(Path.Combine(Application.streamingAssetsPath, filename));
         reader = sourceFile.OpenText();
 
         while (!reader.EndOfStream) {

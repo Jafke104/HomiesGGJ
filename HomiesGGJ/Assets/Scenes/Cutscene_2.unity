@@ -330,6 +330,72 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 200719044}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &235138800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 235138803}
+  - component: {fileID: 235138802}
+  - component: {fileID: 235138801}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &235138801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235138800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &235138802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235138800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &235138803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235138800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &384899983
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623342122}
   - component: {fileID: 623342121}
+  - component: {fileID: 623342123}
   m_Layer: 0
   m_Name: TextController
   m_TagString: Untagged
@@ -438,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81cca505d345ea4aab781e74e9b80b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 1
+  stage: 0
   filename: 
   GlobalFuncts: {fileID: 2130589637}
   DialogueBox: {fileID: 1561658715}
@@ -462,6 +529,20 @@ Transform:
   m_Father: {fileID: 1591348582}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &623342123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623342120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9ea02e6331bd349bfaa3e335b572e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueController: {fileID: 623342120}
+  filename: Stage1.5.txt
 --- !u!1 &828343428
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163832108001794503, guid: 9eb7634a23980a44687b19a0f2b26a04,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fall Season
       objectReference: {fileID: 0}
     - target: {fileID: 5163832108219138306, guid: 9eb7634a23980a44687b19a0f2b26a04,
         type: 3}
