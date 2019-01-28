@@ -53,6 +53,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sam
+    uniqueID: 2044552093
+    locked: 0
   - name: PlayerRig
     uniqueID: 1284723383
     locked: 0
