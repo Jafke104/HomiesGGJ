@@ -13,7 +13,7 @@ public class ContinueMusic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1)){
+        if (Input.GetMouseButtonDown(0)){
             SceneManager.LoadScene("Credits");
         }
     }
